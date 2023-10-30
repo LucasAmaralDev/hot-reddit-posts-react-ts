@@ -30,7 +30,7 @@ export default function Home() {
                 }}
                 >
                     {
-                        posts && posts.map((post) => {
+                        posts && posts.map((post: any) => {
                             return <CardPost post={post} />
                         })
                     }

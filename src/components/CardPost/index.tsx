@@ -27,7 +27,6 @@ export default function CardPost(props: any) {
 
                 <div className="flex w-full justify-center">
                     <Button variant="contained" color="secondary" onClick={() =>{ 
-                        window.location.href = props.post.link_publicacao
                         window.open(props.post.link_publicacao, '_blank')
                         }}>Ver No Reddit</Button>
                 </div>
